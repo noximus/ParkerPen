@@ -3,16 +3,6 @@ var BanTimeline = {
   f2_img1: document.getElementById("f2_img1"),
   f2_img2: document.getElementById("f2_img2"),
   f2_img3: document.getElementById("f2_img3"),
-  f2_img4: document.getElementById("f2_img4"),
-  f2_img5: document.getElementById("f2_img5"),
-  f2_img6: document.getElementById("f2_img6"),
-  f2_img7: document.getElementById("f2_img7"),
-  f2_img8: document.getElementById("f2_img8"),
-  f2_img9: document.getElementById("f2_img9"),
-  f2_img10: document.getElementById("f2_img10"),
-  f2_img11: document.getElementById("f2_img11"),
-  f2_img12: document.getElementById("f2_img12"),
-  f2_img13: document.getElementById("f2_img13"),
   f3_img1: document.getElementById("f3_img1"),
   bgColor: document.getElementById("bgColor"),
   f4_img1: document.getElementById("f4_img1"),
@@ -39,32 +29,12 @@ var BanTimeline = {
     TweenLite.to(f2_img1, .3, {opacity:1, display: 'block', delay: 0, ease: Quad.easeOut});
     TweenLite.to(f2_img2, .3, {opacity:1, display: 'block', delay: .1, ease: Quad.easeOut});
     TweenLite.to(f2_img3, .3, {opacity:1, display: 'block', delay: .2, ease: Quad.easeOut});
-    TweenLite.to(f2_img4, .3, {opacity:1, display: 'block', delay: .3, ease: Quad.easeOut});
-    TweenLite.to(f2_img5, .3, {opacity:1, display: 'block', delay: .4, ease: Quad.easeOut});
-    TweenLite.to(f2_img6, .3, {opacity:1, display: 'block', delay: .5, ease: Quad.easeOut});
-    TweenLite.to(f2_img7, .3, {opacity:1, display: 'block', delay: .6, ease: Quad.easeOut});
-    TweenLite.to(f2_img8, .3, {opacity:1, display: 'block', delay: .7, ease: Quad.easeOut});
-    TweenLite.to(f2_img9, .3, {opacity:1, display: 'block', delay: .8, ease: Quad.easeOut});
-    TweenLite.to(f2_img10, .3, {opacity:1, display: 'block', delay: .9, ease: Quad.easeOut});
-    TweenLite.to(f2_img11, .3, {opacity:1, display: 'block', delay: 1, ease: Quad.easeOut});
-    TweenLite.to(f2_img12, .3, {opacity:1, display: 'block', delay: 1.1, ease: Quad.easeOut});
-    TweenLite.to(f2_img13, .3, {opacity:1, display: 'block', delay: 1.2, ease: Quad.easeOut});
 
     TweenLite.to(f1_img1, 1, {opacity:1, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
     TweenLite.to(f2_img1, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
     TweenLite.to(f2_img2, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
     TweenLite.to(f2_img3, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
-    TweenLite.to(f2_img4, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
-    TweenLite.to(f2_img5, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
-    TweenLite.to(f2_img6, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
-    TweenLite.to(f2_img7, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
-    TweenLite.to(f2_img8, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
-    TweenLite.to(f2_img9, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
-    TweenLite.to(f2_img10, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
-    TweenLite.to(f2_img11, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
-    TweenLite.to(f2_img12, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
-    TweenLite.to(f2_img13, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
-    
+       
     TweenLite.to(f1_img1, 0, {opacity:0, display: 'block', delay: 3, ease: Quad.easeOut});
 
     TweenLite.delayedCall(1.5, BanTimeline.frame3);
@@ -73,7 +43,7 @@ var BanTimeline = {
     TweenLite.to(f3_img1, 1, {opacity:1, display: 'block',scaleX: 1,scaleY: 1,rotation:0, delay: 0, ease: Quad.easeOut});
     TweenLite.to(bgColor, 0, {opacity:1, display: 'block', delay: 1});
 
-    TweenLite.to(f3_img1, .5, {opacity:1, display: 'block',left:-300, delay: 2, ease: Quad.easeInOut});
+    TweenLite.to(f3_img1, .5, {opacity:1, display: 'block',left:-350, delay: 2, ease: Quad.easeInOut});
 
     TweenLite.delayedCall(2, BanTimeline.frame4);
   },
@@ -84,8 +54,8 @@ var BanTimeline = {
     TweenLite.delayedCall(3, BanTimeline.frame5);
   },
   frame5: function () {
-    TweenLite.to(f4_img1, 1, {opacity:1, display: 'block' ,top:25, left:50,width:80, ease: Quad.easeOut});
-    TweenLite.to(f4_img2, 1, {opacity:1, display: 'block' ,top:-45, left:-60, ase: Quad.easeOut});
+    TweenLite.to(f4_img1, 1, {opacity:1, display: 'block' ,top:15, left:65,width:100, ease: Quad.easeOut});
+    TweenLite.to(f4_img2, 1, {opacity:1, display: 'block' ,top:-55, left:-60,scaleX: .8,scaleY: .8, ease: Quad.easeOut});
 
     TweenLite.to(f5_img1, 1, {opacity:1, display: 'block', delay: 0, ease: Quad.easeOut});
     TweenLite.to(f5_img2, 1, {opacity:1, display: 'block', delay: .5, ease: Quad.easeOut});
