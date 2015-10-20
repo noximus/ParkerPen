@@ -16,7 +16,7 @@ var BanTimeline = {
     TweenLite.to(cta,0, {top:50});
 
 
-    TweenLite.to(f3_img1, 0,{scaleX: 2.5,scaleY: 2.5, top:0, left:0,rotation:15});    
+    TweenLite.to(f3_img1, 0,{scaleX: 1.5,scaleY:1.5, top:40, left:210,rotation:10});    
     // run animation after init is done. 
     BanTimeline.frame1();
   },
@@ -33,17 +33,18 @@ var BanTimeline = {
     TweenLite.to(f2_img2, .3, {opacity:1, display: 'block', delay: .1, ease: Quad.easeOut});
     TweenLite.to(f2_img3, .3, {opacity:1, display: 'block', delay: .2, ease: Quad.easeOut});
 
-    TweenLite.to(f1_img1, 1, {opacity:1, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
-    TweenLite.to(f2_img1, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
-    TweenLite.to(f2_img2, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
-    TweenLite.to(f2_img3, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
+    TweenLite.to(f1_img1, 1, {opacity:1, display: 'block',scaleX: .5,scaleY: .5,rotation:-10,left:-140, delay: 1.5, ease: Quad.easeOut});
+    TweenLite.to(f2_img1, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-10,left:-140, delay: 1.5, ease: Quad.easeOut});
+    TweenLite.to(f2_img2, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-10,left:-140, delay: 1.5, ease: Quad.easeOut});
+    TweenLite.to(f2_img3, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-10,left:-140, delay: 1.5, ease: Quad.easeOut});
        
     TweenLite.to(f1_img1, 0, {opacity:0, display: 'block', delay: 3, ease: Quad.easeOut});
 
     TweenLite.delayedCall(1.5, BanTimeline.frame3);
   },
   frame3: function () {
-    TweenLite.to(f3_img1, 1, {opacity:1, display: 'block',scaleX: 1,scaleY: 1,rotation:0, delay: 0, ease: Quad.easeOut});
+    TweenLite.to(f3_img1, .5, {opacity:1, display: 'block'});
+    TweenLite.to(f3_img1, 1, {opacity:1, display: 'block',scaleX: 1,top:0, left:0,scaleY: 1,rotation:0, delay: 0, ease: Quad.easeOut});
     TweenLite.to(bgColor, 0, {opacity:1, display: 'block', delay: 1});
 
     TweenLite.to(f3_img1, .5, {opacity:1, display: 'block',left:-980, delay: 2, ease: Quad.easeIn});

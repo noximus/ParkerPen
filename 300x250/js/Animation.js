@@ -23,7 +23,7 @@ var BanTimeline = {
   init: function () {
     // initial settings for banner frame 1.  In case banner needs to restart.  add as many as you can to CSS first so Banner doesn't jump
 
-    TweenLite.to(f3_img1, 0,{scaleX: 2.5,scaleY: 2.5, top:0, left:0,rotation:15});    
+    TweenLite.to(f3_img1, 0,{scaleX: 3.5,scaleY: 3.5, top:-70, left:260,rotation:5});    
     // run animation after init is done. 
     BanTimeline.frame1();
   },
@@ -50,32 +50,33 @@ var BanTimeline = {
     TweenLite.to(f2_img12, .3, {opacity:1, display: 'block', delay: 1.1, ease: Quad.easeOut});
     TweenLite.to(f2_img13, .3, {opacity:1, display: 'block', delay: 1.2, ease: Quad.easeOut});
 
-    TweenLite.to(f1_img1, 1, {opacity:1, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
-    TweenLite.to(f2_img1, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
-    TweenLite.to(f2_img2, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
-    TweenLite.to(f2_img3, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
-    TweenLite.to(f2_img4, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
-    TweenLite.to(f2_img5, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
-    TweenLite.to(f2_img6, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
-    TweenLite.to(f2_img7, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
-    TweenLite.to(f2_img8, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
-    TweenLite.to(f2_img9, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
-    TweenLite.to(f2_img10, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
-    TweenLite.to(f2_img11, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
-    TweenLite.to(f2_img12, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
-    TweenLite.to(f2_img13, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-15,left:-100, delay: 1.5, ease: Quad.easeOut});
+    TweenLite.to(f1_img1, 1, {opacity:1, display: 'block',scaleX: .5,scaleY: .5,rotation:-5,left:-100, delay: 2.5, ease: Quad.easeOut});
+    TweenLite.to(f2_img1, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-5,left:-100, delay: 2.5, ease: Quad.easeOut});
+    TweenLite.to(f2_img2, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-5,left:-100, delay: 2.5, ease: Quad.easeOut});
+    TweenLite.to(f2_img3, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-5,left:-100, delay: 2.5, ease: Quad.easeOut});
+    TweenLite.to(f2_img4, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-5,left:-100, delay: 2.5, ease: Quad.easeOut});
+    TweenLite.to(f2_img5, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-5,left:-100, delay: 2.5, ease: Quad.easeOut});
+    TweenLite.to(f2_img6, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-5,left:-100, delay: 2.5, ease: Quad.easeOut});
+    TweenLite.to(f2_img7, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-5,left:-100, delay: 2.5, ease: Quad.easeOut});
+    TweenLite.to(f2_img8, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-5,left:-100, delay: 2.5, ease: Quad.easeOut});
+    TweenLite.to(f2_img9, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-5,left:-100, delay: 2.5, ease: Quad.easeOut});
+    TweenLite.to(f2_img10, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-5,left:-100, delay: 2.5, ease: Quad.easeOut});
+    TweenLite.to(f2_img11, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-5,left:-100, delay: 2.5, ease: Quad.easeOut});
+    TweenLite.to(f2_img12, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-5,left:-100, delay: 2.5, ease: Quad.easeOut});
+    TweenLite.to(f2_img13, 1, {opacity:0, display: 'block',scaleX: .5,scaleY: .5,rotation:-5,left:-100, delay: 2.5, ease: Quad.easeOut});
     
     TweenLite.to(f1_img1, 0, {opacity:0, display: 'block', delay: 3, ease: Quad.easeOut});
 
     TweenLite.delayedCall(1.5, BanTimeline.frame3);
   },
   frame3: function () {
-    TweenLite.to(f3_img1, 1, {opacity:1, display: 'block',scaleX: 1,scaleY: 1,rotation:0, delay: 0, ease: Quad.easeOut});
-    TweenLite.to(bgColor, 0, {opacity:1, display: 'block', delay: 1});
+    TweenLite.to(f3_img1, .5,{opacity:1});
+    TweenLite.to(f3_img1, 1, {opacity:1, display: 'block',top:0,left:0,scaleX: 1,scaleY: 1,rotation:0, delay: 0, ease: Quad.easeOut});
+    TweenLite.to(bgColor, 0, {opacity:1, display: 'block', delay: 1.5}); 
 
-    TweenLite.to(f3_img1, .5, {opacity:1, display: 'block',left:-300, delay: 2, ease: Quad.easeInOut});
+    TweenLite.to(f3_img1, .5, {opacity:1, display: 'block',top:0,left:-300, delay: 2, ease: Quad.easeInOut});
 
-    TweenLite.delayedCall(2, BanTimeline.frame4);
+    TweenLite.delayedCall(3, BanTimeline.frame4);
   },
   frame4: function () {
     TweenLite.to(f4_img1, 1, {opacity:1, display: 'block', delay: 0, ease: Quad.easeOut});
