@@ -60,6 +60,7 @@ var BanTimeline = {
 
 /* Pen  */
 
+
     TweenLite.to(pen, .1, {rotation:-20, delay: 0});
     TweenLite.to(pen, .1, {rotation:-15, delay: 0.1});
     TweenLite.to(pen, .1, {rotation:-20, delay: 0.2});
@@ -70,10 +71,36 @@ var BanTimeline = {
     TweenLite.to(pen, .1, {rotation:-15, delay: 0.7});
     TweenLite.to(pen, .1, {rotation:-20, delay: 0.8});
     TweenLite.to(pen, .1, {rotation:-15, delay: 0.9});
+    TweenLite.to(pen, .1, {rotation:-15, delay: 1});
+    TweenLite.to(pen, .1, {rotation:-20, delay: 1.1});
+    TweenLite.to(pen, .1, {rotation:-15, delay: 1.2});
+    TweenLite.to(pen, .1, {rotation:-20, delay: 1.3});
+    TweenLite.to(pen, .1, {rotation:-15, delay: 1.4});
+    TweenLite.to(pen, .1, {rotation:-20, delay: 1.5});
+    TweenLite.to(pen, .1, {rotation:-15, delay: 1.6});    
+    TweenLite.to(pen, .1, {rotation:-25, delay: 1.6});  
+
+    TweenLite.to(pen, .1, {rotation:-15, delay: 1.7});
+    TweenLite.to(pen, .1, {rotation:-20, delay: 1.8});
+    TweenLite.to(pen, .1, {rotation:-15, delay: 1.9});
+    TweenLite.to(pen, .1, {rotation:-20, delay: 1.1});
+    TweenLite.to(pen, .1, {rotation:-15, delay: 1.2});    
+    TweenLite.to(pen, .1, {rotation:-25, delay: 1.3});  
+
+    TweenLite.to(pen, .1, {rotation:-15, delay: 1.8});
+    TweenLite.to(pen, .1, {rotation:-20, delay: 1.9});
+    TweenLite.to(pen, .1, {rotation:-15, delay: 2});
+    TweenLite.to(pen, .1, {rotation:-20, delay: 2.1});
+    TweenLite.to(pen, .1, {rotation:-15, delay: 2.2});    
+    TweenLite.to(pen, .1, {rotation:-25, delay: 2.3});  
+
+    TweenLite.to(pen, .1, {rotation:-38, delay: 2.4});
 
 
-   TweenLite.to(penHolder, 0.8, {left:0.1, delay: 0.1});
-   
+
+   TweenLite.to(penHolder, 4, {left:120, top:-52, delay: 0.1});
+  TweenLite.to(penHolder, 0.5, {left:120,  delay: 1.7,});
+
 /*
     
     TweenLite.to(pen, .3, {rotation:-10, delay: 0.3});
