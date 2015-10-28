@@ -49,12 +49,12 @@ var BanTimeline = {
     TweenLite.to(f0_img1, .5, {opacity:0, display: 'block'});
 
 
-   TweenLite.to(penHolder, .3, {opacity:1, left:-76, top:5, display: 'block', delay: 0.2});
+   TweenLite.to(penHolder, .3, { left:-76, top:5, delay: 0.2});
    TweenLite.to(pen, .2, {opacity:1, rotation:0, left:-10, top:-36, display: 'block', delay: 0, ease: Quad.easeOut});
    
 
 
-    TweenLite.delayedCall(.5, BanTimeline.frame2);
+   TweenLite.delayedCall(.5, BanTimeline.frame2);
   },
   frame2: function () {
 
