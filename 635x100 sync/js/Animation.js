@@ -32,7 +32,7 @@ var BanTimeline = {
     TweenLite.to(f1_img1, 0.4, {left:520, delay: 1.6});
 
 
-    TweenLite.delayedCall(3, BanTimeline.frame2);
+    TweenLite.delayedCall(6, BanTimeline.frame2);
   },
   frame2: function () {
 
