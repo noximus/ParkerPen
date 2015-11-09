@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
-
+body{margin:0;}
 #container {
     position: absolute;
     width:300px;
